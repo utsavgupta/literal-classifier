@@ -4,7 +4,7 @@ The objective is to create a deterministic finite automaton for classifying lite
 
 The project is written in Scala and the state machine is designed using vanilla Akka actors (ps. this demonstration does not use the FSM constructs provided by Akka).
 
-For this demo a literal can be integer, float or string. Handling of leading positive and negative signs before numeric literals have been omited to maintain the brevity and simplicity of the demonstration. So +12 and -12.34 will be classified as string.
+For this demo a literal can be integer, float or string. Handling of leading positive and negative signs before numeric literals have been omitted to maintain brevity and simplicity of the demonstration. So +12 and -12.34 will be classified as string.
 
 ## Alphabet
 
